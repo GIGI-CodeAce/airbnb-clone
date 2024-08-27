@@ -1,0 +1,106 @@
+
+body{
+    color: black;
+    font-family: Poppins;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    overflow-x: hidden ;
+}
+@media only screen and (max-width: 750px) {
+    body img{
+        width: 600px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    body img{
+        width: 500px;
+    }
+}
+img{
+    text-align: center;
+    height: 400px;
+    width: 700px;
+}
+main{
+    text-align: center;
+    padding: 10px;
+}
+#OEtitle:hover{
+    text-decoration: underline;
+}
+.OnEx{
+    overflow-x:scroll;
+    background-color: hsl(0, 0%, 95%);
+    text-align: center;
+    padding: 15px 10px;
+    display:flex;
+}
+.experience{
+    position: relative;
+    display: inline-block;
+    background-color: hsl(0, 0%, 85%);
+    border: 2px solid black;
+    min-width: 250px;
+    max-width: 250px;
+    height: auto;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-right: 5px;
+    line-height: 10px;
+}
+.experience:hover{
+    padding: 2px;
+}
+.ex-img{
+    width: 92%;
+    height: 230px;
+    border-radius: 20px;
+    margin: 10px;
+}
+#ex-img1{
+    background: url('/src/Media/katie.jpg');
+}
+#ex-img2{
+    background: url('/src/Media/biking.webp');
+}
+#ex-img3{
+    background: url('/src/Media/wedding.jpg');
+}
+#ex-img1, #ex-img2, #ex-img3, #ex-img4, #ex-img5, #ex-img6  {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.info{
+    font-size: 13px;
+    padding: 4px;
+    transform: translate(5px, 5px);
+    background-color:hsl(0, 0%, 10%) ;
+    border: 1px solid hsl(0, 0%, 70%);
+    color: whitesmoke;
+    width: 70px;
+    border-radius: 10px;
+    user-select: none;
+}
+.star{
+    width: 20px;
+    height: 15px;
+}
+footer{
+    text-align: center;
+    background-color: hsl(0, 0%, 75%);
+    color: whitesmoke;
+    height: 50px;
+}
+footer h4{
+    box-shadow: 0px -3px 5px hsl(0, 0%, 75%); 
+    padding: 10px;
+}
+
+.ex-img:hover{
+    animation: radius 0.5s forwards;
+}
+@keyframes radius{
+    100%{border-radius: 10px;}
+} 
