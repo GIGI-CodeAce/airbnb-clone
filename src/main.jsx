@@ -7,7 +7,9 @@ function Main(){
 
   return(
     <main>
+      <div  className='overlay'>
       <img src='https://raw.githubusercontent.com/GIGIsOtherStuff/BNBclone/main/Media/photo-grid.png' alt="Photo Grid"></img>
+      </div>
       <h1 id='OEtitle'>Online Experiences</h1>
       <span>Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.</span>
       <div className='OnEx'>

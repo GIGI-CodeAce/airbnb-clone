@@ -50,7 +50,8 @@ main{
     line-height: 10px;
 }
 .experience:hover{
-    padding: 2px;
+    padding: 1px;
+    color: hsl(0, 0%, 40%) ;
 }
 .ex-img{
     width: 92%;
@@ -59,13 +60,13 @@ main{
     margin: 10px;
 }
 #ex-img1{
-    background: url('/src/Media/katie.jpg');
+    background: url('https://raw.githubusercontent.com/GIGIsOtherStuff/BNBclone/main/Media/katie.jpg');
 }
 #ex-img2{
-    background: url('/src/Media/biking.webp');
+    background: url('https://raw.githubusercontent.com/GIGIsOtherStuff/BNBclone/main/Media/biking.webp');
 }
 #ex-img3{
-    background: url('/src/Media/wedding.jpg');
+    background: url('https://raw.githubusercontent.com/GIGIsOtherStuff/BNBclone/main/Media/wedding.jpg');
 }
 #ex-img1, #ex-img2, #ex-img3, #ex-img4, #ex-img5, #ex-img6  {
     background-size: cover;
@@ -100,6 +101,9 @@ footer h4{
 
 .ex-img:hover{
     animation: radius 0.5s forwards;
+}
+.overlay{
+    overflow: hidden ;
 }
 @keyframes radius{
     100%{border-radius: 10px;}
